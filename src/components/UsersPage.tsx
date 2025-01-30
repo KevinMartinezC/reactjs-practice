@@ -1,7 +1,11 @@
 import React from "react";
 import UserRow from "./UserRow";
+import useUser from "../hooks/useUser";
+// https://reqres.in/api/users?page=2
 
 const UsersPage = () => {
+    const { users }= useUser();
+    console.log(users);
   return (
     <>
       <h3>Usuarios</h3>
