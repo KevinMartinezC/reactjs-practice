@@ -5,7 +5,8 @@
 //import Counter from "./components/Counter"
 // se envuelve toda la aplicación en el componente AuthProvider, para que el estado de autenticación esté disponible en toda la aplicación. 
 // LoginPage from "./components/LoginPage"
-import UsersPage from "./components/UsersPage"
+// import UsersPage from "./components/UsersPage"
+import FormsPage from "./components/FormsPage"
 import { AuthProvider } from "./context/AuthContext"
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
      {/* <BasicFuntions/> */}
      {/* <Counter /> */}
       {/* <LoginPage /> */}
-      <UsersPage />
+      {/* <UsersPage /> */}
+      <FormsPage />
      </div>
     </AuthProvider>
     </>
