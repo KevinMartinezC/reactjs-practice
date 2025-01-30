@@ -4,7 +4,8 @@
 //import ObjectLiterals from './typescript/ObjectLiterals'
 //import Counter from "./components/Counter"
 // se envuelve toda la aplicación en el componente AuthProvider, para que el estado de autenticación esté disponible en toda la aplicación. 
-import LoginPage from "./components/LoginPage"
+// LoginPage from "./components/LoginPage"
+import UsersPage from "./components/UsersPage"
 import { AuthProvider } from "./context/AuthContext"
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
      {/* <ObjectLiterals /> */}
      {/* <BasicFuntions/> */}
      {/* <Counter /> */}
-      <LoginPage />
+      {/* <LoginPage /> */}
+      <UsersPage />
      </div>
     </AuthProvider>
     </>
